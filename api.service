@@ -1,0 +1,10 @@
+[Unit]
+Description=API server
+
+[Service]
+ExecStart=/home/alibek/script.sh
+
+
+[Install]
+WantedBy=multi-user.target
+Alias=api.service
